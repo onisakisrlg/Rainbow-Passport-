@@ -31,8 +31,13 @@ export const Navbar = () => {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <a href="#" className="font-serif text-2xl font-bold tracking-wider">
-              RAINBOW PASSPORT
+            <a href="#" className="flex items-center gap-3 font-serif text-2xl font-bold tracking-wider">
+              <img 
+                src="https://i.postimg.cc/MGsgD86W/a804cb6909b1f576dc0dabe28f184642.png" 
+                alt="Rainbow Passport Logo" 
+                className="h-12 w-auto"
+              />
+              <span>RAINBOW PASSPORT</span>
             </a>
           </div>
 
