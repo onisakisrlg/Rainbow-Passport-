@@ -1,11 +1,34 @@
-<div align="center">
+# Rainbow Passport
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Official landing page for Rainbow Passport LLC.
 
-  <h1>Built with AI Studio</h2>
+## Tech Stack
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Vite
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Deployment
 
-</div>
+This project is ready to be deployed on Vercel.
+
+1. Push the code to a Git repository (GitHub, GitLab, Bitbucket).
+2. Import the project into Vercel.
+3. Vercel will automatically detect the Vite framework and configure the build settings.
+   - Build Command: `npm run build`
+   - Output Directory: `dist`
+   - Install Command: `npm install`
+
+## Local Development
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Start the development server:
+   ```bash
+   npm run dev
+   ```
